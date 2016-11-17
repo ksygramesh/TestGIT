@@ -1,0 +1,8 @@
+D:\ProductionTFSWS\DET_TeamProject\AWSWebApp\OfficeServices\OfficesServices\bin\OfficesServices.dll.config
+D:\ProductionTFSWS\DET_TeamProject\AWSWebApp\OfficeServices\OfficesServices\bin\OfficesServices.dll
+D:\ProductionTFSWS\DET_TeamProject\AWSWebApp\OfficeServices\OfficesServices\bin\OfficesServices.pdb
+D:\ProductionTFSWS\DET_TeamProject\AWSWebApp\OfficeServices\OfficesServices\obj\Release\OfficesServices.dll
+D:\ProductionTFSWS\DET_TeamProject\AWSWebApp\OfficeServices\OfficesServices\obj\Release\OfficesServices.pdb
+D:\ProductionTFSWS\DET_TeamProject\AWSWebApp\OfficeServices\OfficesServices\bin\MySql.Data.dll
+D:\ProductionTFSWS\DET_TeamProject\AWSWebApp\OfficeServices\OfficesServices\bin\MySql.Data.Entity.dll
+D:\ProductionTFSWS\DET_TeamProject\AWSWebApp\OfficeServices\OfficesServices\bin\MySql.Data.xml

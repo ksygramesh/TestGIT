@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="Sqlconstr-Web.config Connection String" description="Sqlconstr Connection String used in web.config by the application to access the database." defaultValue="Data Source=awsmysqlmph.cspwx7aqtgaw.us-west-2.rds.amazonaws.com;port=3306;Initial Catalog=classicmodels;User Id=MphMySql;password=Mysql123#" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\ProductionTFSWS\\DET_TeamProject\\AWSWebApp\\EmployeeServices\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Sqlconstr']/@connectionString" />
+  </parameter>
+</parameters>

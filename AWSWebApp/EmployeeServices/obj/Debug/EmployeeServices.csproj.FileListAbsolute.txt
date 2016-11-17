@@ -1,0 +1,8 @@
+D:\ProductionTFSWS\DET_TeamProject\AWSWebApp\EmployeeServices\bin\EmployeeServices.dll.config
+D:\ProductionTFSWS\DET_TeamProject\AWSWebApp\EmployeeServices\bin\EmployeeServices.dll
+D:\ProductionTFSWS\DET_TeamProject\AWSWebApp\EmployeeServices\bin\EmployeeServices.pdb
+D:\ProductionTFSWS\DET_TeamProject\AWSWebApp\EmployeeServices\bin\MySql.Data.dll
+D:\ProductionTFSWS\DET_TeamProject\AWSWebApp\EmployeeServices\bin\MySql.Data.Entity.dll
+D:\ProductionTFSWS\DET_TeamProject\AWSWebApp\EmployeeServices\bin\MySql.Data.xml
+D:\ProductionTFSWS\DET_TeamProject\AWSWebApp\EmployeeServices\obj\Debug\EmployeeServices.dll
+D:\ProductionTFSWS\DET_TeamProject\AWSWebApp\EmployeeServices\obj\Debug\EmployeeServices.pdb

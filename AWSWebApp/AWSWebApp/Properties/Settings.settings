@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AWSWebApp.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="AWSWebApp_OfficeServWebRef_OfficeServices" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://wksban04gf52a/OfficesService/OfficeServices.asmx</Value>
+    </Setting>
+    <Setting Name="AWSWebApp_AWSEmpSrvRef_EmployeeService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://ec2-54-187-118-249.us-west-2.compute.amazonaws.com/EmployeeServices/EmployeeService.asmx</Value>
+    </Setting>
+    <Setting Name="AWSWebApp_AWSOfficSrvRef_OfficeServices" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://ec2-54-187-118-249.us-west-2.compute.amazonaws.com/OfficesServices/OfficeServices.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

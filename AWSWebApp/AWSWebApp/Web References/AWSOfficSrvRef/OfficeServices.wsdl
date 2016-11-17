@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetAllOffices">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllOfficesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllOfficesResult" type="tns:ArrayOfOfficeEntitity" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfOfficeEntitity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="OfficeEntitity" nillable="true" type="tns:OfficeEntitity" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="OfficeEntitity">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="officeCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="city" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="phone" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="addressLine1" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="addressLine2" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="state" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="country" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="postalCode" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="territory" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetAllOfficesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllOffices" />
+  </wsdl:message>
+  <wsdl:message name="GetAllOfficesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllOfficesResponse" />
+  </wsdl:message>
+  <wsdl:portType name="OfficeServicesSoap">
+    <wsdl:operation name="GetAllOffices">
+      <wsdl:input message="tns:GetAllOfficesSoapIn" />
+      <wsdl:output message="tns:GetAllOfficesSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="OfficeServicesSoap" type="tns:OfficeServicesSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAllOffices">
+      <soap:operation soapAction="http://tempuri.org/GetAllOffices" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="OfficeServicesSoap12" type="tns:OfficeServicesSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAllOffices">
+      <soap12:operation soapAction="http://tempuri.org/GetAllOffices" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="OfficeServices">
+    <wsdl:port name="OfficeServicesSoap" binding="tns:OfficeServicesSoap">
+      <soap:address location="http://ec2-54-187-118-249.us-west-2.compute.amazonaws.com/OfficesServices/OfficeServices.asmx" />
+    </wsdl:port>
+    <wsdl:port name="OfficeServicesSoap12" binding="tns:OfficeServicesSoap12">
+      <soap12:address location="http://ec2-54-187-118-249.us-west-2.compute.amazonaws.com/OfficesServices/OfficeServices.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

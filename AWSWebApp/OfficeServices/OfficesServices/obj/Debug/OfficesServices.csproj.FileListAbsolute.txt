@@ -1,0 +1,6 @@
+D:\ProductionTFSWS\DET_TeamProject\AWSWebApp\OfficeServices\OfficesServices\obj\Debug\OfficesServices.csprojResolveAssemblyReference.cache
+D:\ProductionTFSWS\DET_TeamProject\AWSWebApp\OfficeServices\OfficesServices\bin\OfficesServices.dll.config
+D:\ProductionTFSWS\DET_TeamProject\AWSWebApp\OfficeServices\OfficesServices\bin\OfficesServices.dll
+D:\ProductionTFSWS\DET_TeamProject\AWSWebApp\OfficeServices\OfficesServices\bin\OfficesServices.pdb
+D:\ProductionTFSWS\DET_TeamProject\AWSWebApp\OfficeServices\OfficesServices\obj\Debug\OfficesServices.dll
+D:\ProductionTFSWS\DET_TeamProject\AWSWebApp\OfficeServices\OfficesServices\obj\Debug\OfficesServices.pdb
